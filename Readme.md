@@ -1,5 +1,8 @@
 # Workflow Builder
 
+![1](https://github.com/user-attachments/assets/495e2b75-7432-46f0-9d88-587d5a13a01f)
+
+
 ## Overview
 
 Workflow Builder is a web application that allows users to create, visualize, and execute workflows through a graphical interface. It utilizes **React.js** with **ReactFlow** for the frontend and **Node.js** with **Express.js** for the backend. The workflows can be saved, retrieved, and executed using defined tasks, such as filtering data, waiting, converting data formats, and sending HTTP requests.
