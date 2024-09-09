@@ -59,9 +59,9 @@ const WorkflowBuilder = () => {
   };
 
   return (
-    <div className="py-10 px-4 m-auto border w-[80%] h-screen">
+    <div className="py-10 px-4 m-auto text-center border md:w-[80%] w-full h-screen">
       <h1 className="text-3xl border-b-2 border-black w-fit m-auto font-bold mb-4 text-center">WORKFLOW BUILDER</h1>
-      <div className="mb-4 gap-2 text-center">
+      <div className="mb-4 gap-2 flex md:flex-row flex-col text-center">
         <button
           onClick={() => addNode("start")}
           className="p-2 bg-black text-white rounded mr-2"
@@ -99,7 +99,7 @@ const WorkflowBuilder = () => {
           Add End Node
         </button>
       </div>
-      <div className="h-[90%] w-full border-2 border-black">
+      <div className="md:h-[90%] h-[60%] w-full text-center m-auto border-2 border-black">
         <ReactFlow
           nodes={nodes}
           edges={edges}
