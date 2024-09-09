@@ -1,6 +1,6 @@
 # Workflow Builder
 
-![1](https://github.com/user-attachments/assets/495e2b75-7432-46f0-9d88-587d5a13a01f)
+<img src="https://github.com/user-attachments/assets/495e2b75-7432-46f0-9d88-587d5a13a01f" alt="1" width="500" height="400">
 
 
 ## Overview
@@ -30,6 +30,9 @@ Workflow Builder is a web application that allows users to create, visualize, an
   - Axios (for making HTTP requests)
   - MongoDB  (for storing workflow data)
 
+- **File Structure:**
+  
+![image](https://github.com/user-attachments/assets/3cacad71-a2eb-4a39-8cf1-4650b9c694c2)
 
 
 ## Getting Started
